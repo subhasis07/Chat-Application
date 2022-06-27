@@ -1,12 +1,18 @@
 .logo{
     display: block;
     margin: auto;
-    width: 180px; 
-    height: 150px;
+    width: 110px; 
+    height: 90px;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: fangsong;
 }
 .container{
     max-width: 1000px;
-    background-color:antiquewhite;
+    background-color:rgb(230, 207, 176);
     margin: auto;
     height: 60vh;
     overflow-y: auto;
@@ -38,17 +44,20 @@
     max-width: 950px;
 }
 #messageInp{
-    width: 92%;
+    width: 80%;
     height: 30px;
     margin: 9px;
     border: 2px solid black;
     border-radius: 5px;
     background-color:aliceblue;
+    font-style: oblique;
+    font-size: 16px;
 }
 .btn{
+    width: 9%;
     cursor: pointer;
     border: 2px solid black;
     border-radius: 5px;
-    height: 35px;
+    height: 30px;
     background-color: blanchedalmond;
 }
